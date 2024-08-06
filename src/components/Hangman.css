@@ -1,0 +1,53 @@
+.hangman-structure{
+    display: flex;
+}
+
+.stand{
+    width: 4px;
+    height: 240px;
+    background-color: #fff;
+}
+.horz{
+    height: 4px;
+    width: 100px;
+    background-color: #fff;
+}
+.hook{
+    width: 4px;
+    height: 40px;
+    background-color: #fff;
+}
+.head{
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin-left: -10px;
+}
+.body{
+    width: 14px;
+    height: 50px;
+    background-color: #fff;
+}
+.hand{
+    height: 4px;
+    width: 100px;
+    background-color: #fff;
+    margin-left: -40px;
+}
+.leg1{
+    width: 4px;
+    height: 40px;
+    background-color: #fff;
+    transform: rotate(15deg);
+}
+.leg2{
+    width: 4px;
+    height: 40px;
+    margin-left: 10px;
+    background-color: #fff;
+    transform: rotate(-15deg);
+}
+.legs{
+    display: flex;
+}
